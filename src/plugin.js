@@ -225,7 +225,7 @@ const plugin = {
       let highestDataY = lineChartUtils.calculateHighestDataY([
         bottomY,
         topY,
-        maxY,
+        bottomY, //maxY,
         tickMax,
         tickLow,
         borderWidth
